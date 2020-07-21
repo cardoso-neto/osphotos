@@ -1,0 +1,26 @@
+
+Oldschool ER:
+
+TAGS n-n PICTURES
+PICTURES 1-n DESCRIPTIONS
+PERSONS n-n PICTURES
+
+
+Tables:
+
+PICTURES
+ID: sha3_256_digest(content) PK
+creation_date: datetime
+coordinates: gps
+
+PERSONS
+ID: sha3_256_digest(name, birthday) PK
+name: string        
+brithday: date
+e-mails?: (provider + email-string)
+phone-numbers?: number
+
+
+Semantic ER:
+
+PICTURES n-n INFERRED_TAGS
