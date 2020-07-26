@@ -15,9 +15,9 @@ The basic plan is for this to replace Google Photos as the best "image indexer" 
 
 ### Roadmap
 
-Define common data format.
-Create an API that writes to that common format.
-Feature: Merge different libraries together. Needs discussion on how to handle conflicts.
-Semantic stuff: enable users to autodetect faces, auto-generate tags, auto-group similar photos, etc. 
+- Define common data format.
+- Create an API that writes to that common format.
+- Feature: Merge different libraries together. Needs discussion on how to handle conflicts.
+- Semantic stuff: enable users to autodetect faces, auto-generate tags, auto-group similar photos, etc. 
 
 See [queries.md](./design-docs/queries.md) to get an idea of what sort of use cases this is intended to attend.
