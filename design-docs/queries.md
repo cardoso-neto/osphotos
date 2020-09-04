@@ -5,7 +5,7 @@
 - get all images within a date range (incrementally)        
 - get all images satisfying boolean expression with tags
 - get all images by geographic location (e.g., Berlin)
-- get all images by meaningful location (e.g., Martha's apartment master suite)
+- get all images by meaningful location (e.g., Martha's apartment master suite) # needs thought
 - get all images containing a person
 ###
 - add a tag to an image

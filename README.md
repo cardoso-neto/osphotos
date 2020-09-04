@@ -20,4 +20,8 @@ The basic plan is for this to replace Google Photos as the best "image indexer" 
 - Feature: Merge different libraries together. Needs discussion on how to handle conflicts.
 - Semantic stuff: enable users to autodetect faces, auto-generate tags, auto-group similar photos, etc. 
 
+Metadata management is extremely important. This project will also strive to make metadata sharing easy.
+
 See [queries.md](./design-docs/queries.md) to get an idea of what sort of use cases this is intended to attend.
+
+Its architecture is heavily influenced by git.

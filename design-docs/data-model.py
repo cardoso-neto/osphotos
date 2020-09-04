@@ -1,16 +1,19 @@
 # from enum import Enum, unique
 from datetime import date, datetime
-from typing import List, Optional, TypedDict
+from typing import Dict, List, Optional, Set, TypedDict, Tuple
 
 
-class Point:
+class TwoDPoint:
     x: int
     y: int
 
-        
+
 class BBox:
-    upper_left: Point
-    bottom_right: Point
+    upper_left: TwoDPoint
+    bottom_right: TwoDPoint
+
+
+Emotion = str
 
 
 class Person(TypedDict):
@@ -22,7 +25,7 @@ class Person(TypedDict):
 class PersonInPicture(TypedDict, total=False):
     person_id: str
     face_position: Optional[BBox]
-    body_position: Optional[List[Points]]
+    body_position: Optional[List[TwoDPoint]]
         
 
 gps = Tuple[float, float]
