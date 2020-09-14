@@ -32,9 +32,9 @@ setuptools.setup(
     keywords='git annex external remote manyzips zip',
     entry_points = {
         'console_scripts': [
-            'get_image_hash_pixelwise_sha3_256=ometadata.porcelain.toiletry.plumbing.sewer.get_image_hash_pixelwise_sha3_256:main',
-            'get_image_hash=ometadata.porcelain.toiletry.plumbing.get_image_hash:main',
-            'create_image_obj=ometadata.porcelain.toiletry.create_image_obj:main'
+            'get_image_hash_pixelwise_sha3_256=ometadata.sewer.get_image_hash_pixelwise_sha3_256:main',
+            'get_image_hash=ometadata.plumbing.get_image_hash:main',
+            'create_image_obj=ometadata.toiletry.create_image_obj:main'
         ],
     },
     python_requires=">=3.8",
